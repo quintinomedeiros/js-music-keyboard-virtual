@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Piano Simulator</title>
+  <title>Simulador de Piano</title>
 
   <!-- styles -->
   <link rel="stylesheet" href="./src/styles/reset.css">
@@ -16,12 +16,14 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400&display=swap"
     rel="stylesheet">
+  
+    <link rel="shortcut icon" href="./src/images/icons8-piano-color-96.png" type="image/x-icon">
 </head>
 
 <body>
   <div class="container">
     <header>
-      <h2>Virtual Piano</h2>
+      <h2>Piano Virtual</h2>
       <div class="column volume-slider">
         <span>Volume</span> <input type="range" min="0" max="1" value="0.5" step="any">
       </div>
@@ -30,23 +32,23 @@
       </div>
     </header>
     <ul class="piano-keys">
-      <li class="key white" data-key="a"><span>a</span></li>
-      <li class="key black" data-key="w"><span>w</span></li>
-      <li class="key white" data-key="s"><span>s</span></li>
-      <li class="key black" data-key="e"><span>e</span></li>
-      <li class="key white" data-key="d"><span>d</span></li>
-      <li class="key black" data-key="f"><span>f</span></li>
-      <li class="key white" data-key="t"><span>t</span></li>
-      <li class="key black" data-key="g"><span>g</span></li>
-      <li class="key white" data-key="y"><span>y</span></li>
-      <li class="key black" data-key="h"><span>h</span></li>
-      <li class="key white" data-key="u"><span>u</span></li>
-      <li class="key black" data-key="j"><span>j</span></li>
-      <li class="key white" data-key="k"><span>k</span></li>
-      <li class="key black" data-key="o"><span>o</span></li>
-      <li class="key white" data-key="l"><span>l</span></li>
-      <li class="key black" data-key="p"><span>p</span></li>
-      <li class="key white" data-key=";"><span>;</span></li>
+      <li class="key white" data-key="a" title="C"><span>a<br/>C</span></li>
+      <li class="key black" data-key="w" title="C#"><span>w<br/>C#</span></li>
+      <li class="key white" data-key="s" title="D"><span>s<br/>D</span></li>
+      <li class="key black" data-key="e" title="D#"><span>e<br/>D#</span></li>
+      <li class="key white" data-key="d" title="E"><span>d<br/>E</span></li>
+      <li class="key white" data-key="f" title="F"><span>f<br/>F</span></li>
+      <li class="key black" data-key="t" title="F#"><span>t<br/>F#</span></li>
+      <li class="key white" data-key="g" title="G"><span>g<br/>G</span></li>
+      <li class="key black" data-key="y" title="G#"><span>y<br/>G#</span></li>
+      <li class="key white" data-key="h" title="A"><span>h<br/>A</span></li>
+      <li class="key black" data-key="u" title="A#"><span>u<br/>A#</span></li>
+      <li class="key white" data-key="j" title="B"><span>j<br/>B</span></li>
+      <li class="key white" data-key="k" title="Bass"><span>k<br/>Bass</span></li>
+      <li class="key black" data-key="o" title="Cymbal closed"><span>o<br/>Cymb</span></li>
+      <li class="key white" data-key="l" title="Snare"><span>l<br/>Snare</span></li>
+      <li class="key black" data-key="p" title="Cymbal open"><span>p<br/>Cymb</span></li>
+      <li class="key white" data-key="ç" title="Splash"><span>ç<br/>Splash</span></li>
     </ul>
   </div>
 
